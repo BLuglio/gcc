@@ -48,3 +48,12 @@ ex:
   ....
 gcc -DMY_MACRO main.c
 ```
+
+### Environment Variables
+
+  - PATH: for searching executable and run-time shared libraries (.so, .dll)
+  - CPATH: for searching include paths for headers
+    - searched after paths specified in `-l<dir>` options
+    - C_INCLUDE_PATH can be used to specify C headers if the particular language was indicated in the pre-processing
+  - LIBRARY_PATH: for searching library paths for link libraries
+    - searched after paths specified in `-L<dir>` options
