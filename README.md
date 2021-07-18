@@ -17,3 +17,8 @@ Prints the assembler result to a file:
 ```
 gcc -E main.c >> debug
 ```
+
+Produce all intermediate stages output to file:
+```
+gcc -save-temps main.c
+```
