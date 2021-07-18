@@ -49,6 +49,11 @@ ex:
 gcc -DMY_MACRO main.c
 ```
 
+Displays the list of the shared libraries needed by an executable:
+```
+ldd main.out
+```
+
 ### Environment Variables
 
   - PATH: for searching executable and run-time shared libraries (.so, .dll)
