@@ -28,3 +28,8 @@ Create a shared library:
 gcc -c -Wall -fPIC main.c
 gcc -shared -o main.so main.o
 ```
+
+Debug:
+```
+gcc -g main.c
+```
