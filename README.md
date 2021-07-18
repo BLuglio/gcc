@@ -33,3 +33,8 @@ Debug:
 ```
 gcc -g main.c
 ```
+
+Verbose:
+```
+gcc -v main.c
+```
