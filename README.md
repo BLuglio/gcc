@@ -38,3 +38,13 @@ Verbose:
 ```
 gcc -v main.c
 ```
+
+Show the prints contained inside macros when the final executable is launched:
+```
+ex:
+  #ifdef MY_MACRO
+    printf("Something inside the macro);
+  #endif
+  ....
+gcc -DMY_MACRO main.c
+```
