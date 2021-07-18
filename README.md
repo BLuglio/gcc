@@ -6,7 +6,7 @@ Basic usage:
 ```
 gcc main.c -o executable
 ```
-Add `-Wall` to enable warnings.
+Add `-Wall` to enable warnings; use `-Wall -Werrors` to treat warnings as errors.
 
 Prints the preprocessor result to a file:
 ```
